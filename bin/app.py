@@ -228,7 +228,7 @@ def _proxy(*args, **kwargs):
 
 
 @app.route("/", methods=['GET', 'POST'])
-@app.route("/<path:topic>", methods=["GET", "POST"])
+@app.route("/<path:topic>/", methods=["GET", "POST"])
 def answer(topic=None):
     """
     Main rendering function, it processes incoming weather queries.

@@ -24,3 +24,4 @@ emacs:go-mode/:list         # special editor names
 mkffs.ffatt                 # unknown
 latencies                   # [python2]
 rust/:learn
+rust/:learn/
